@@ -8,7 +8,7 @@ import torch
 
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open("models_nlp/v2/climatique_embeddings.pkl", "rb") as f:
+with open("models_nlp/final/climatique_embeddings.pkl", "rb") as f:
     # data = torch.load(f, map_location=device, weights_only=False)
     # data = torch.load(f, map_location=device)
     data = pickle.load(f)
